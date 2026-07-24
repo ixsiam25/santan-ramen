@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu お品書き | SANTAN らぁ麺 三湯 — Beppu</title>
+<meta name="description" content="The full menu at らぁ麺 三湯 SANTAN, Beppu — chicken paitan, the Yukihime foam bowl, shoyu &amp; shio ramen, tsukemen, mazesoba, toppings, rice bowls and drinks. EN / 日本語 / 한국어 / 中文.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Shippori+Mincho+B1:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-badge"><img src="pictures/logo-icon.svg" alt="Santan bowl mark"></span>
+      <span class="logo-text">
+        <span class="jp">らぁ麺 三湯</span>
+        <span class="en">Santan</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html"><span class="lang-en">Home</span><span class="lang-jp">ホーム</span><span class="lang-ko">홈</span><span class="lang-zh">首页</span></a></li>
+        <li><a href="menu.html" class="active"><span class="lang-en">Menu</span><span class="lang-jp">お品書き</span><span class="lang-ko">메뉴</span><span class="lang-zh">菜单</span></a></li>
+        <li><a href="broth.html"><span class="lang-en">Our Broth</span><span class="lang-jp">こだわり</span><span class="lang-ko">육수 이야기</span><span class="lang-zh">汤头故事</span></a></li>
+        <li><a href="index.html#gallery"><span class="lang-en">Gallery</span><span class="lang-jp">ギャラリー</span><span class="lang-ko">갤러리</span><span class="lang-zh">相册</span></a></li>
+        <li><a href="index.html#reviews"><span class="lang-en">Reviews</span><span class="lang-jp">口コミ</span><span class="lang-ko">리뷰</span><span class="lang-zh">评价</span></a></li>
+        <li><a href="index.html#visit" class="nav-cta"><span class="lang-en">Visit</span><span class="lang-jp">アクセス</span><span class="lang-ko">오시는 길</span><span class="lang-zh">到店</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-toggle" id="langToggle">
+        <button data-lang="en" class="active" title="English">EN</button>
+        <button data-lang="jp" title="日本語">日</button>
+        <button data-lang="ko" title="한국어">한</button>
+        <button data-lang="zh" title="中文">中</button>
+      </div>
+      <a class="insta-link" href="https://www.instagram.com/ramen_santan/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <button class="hamburger" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="menu-hero">
+  <span class="eyebrow"><span class="lang-en">Chicken Paitan · Beppu</span><span class="lang-jp">鶏白湯・別府</span><span class="lang-ko">닭 백탕 · 벳푸</span><span class="lang-zh">鸡白汤 · 别府</span></span>
+  <h1><span class="lang-en">Our Menu</span><span class="lang-jp">お品書き</span><span class="lang-ko">메뉴</span><span class="lang-zh">菜单</span></h1>
+  <p>
+    <span class="lang-en">Prices include tax. Cash only. Served until the soup runs out.</span>
+    <span class="lang-jp">価格は税込です。現金のみ。スープがなくなり次第終了。</span>
+    <span class="lang-ko">가격은 세금 포함. 현금만 가능. 국물 소진 시 마감.</span>
+    <span class="lang-zh">价格含税。仅收现金。汤尽即止。</span>
+  </p>
+</section>
+
+<nav class="category-nav">
+  <ul id="categoryNav">
+    <!-- filled by js/render-menu.js from window.MENU_DATA (js/menu-data.js) -->
+  </ul>
+</nav>
+
+<div id="menuSections">
+  <!-- filled by js/render-menu.js from window.MENU_DATA (js/menu-data.js) -->
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-logo-card">
+        <img src="pictures/logo.svg" alt="らぁ麺 三湯 SANTAN logo">
+      </div>
+      <p style="max-width: 340px; color: rgba(245,240,230,0.6);">
+        <span class="lang-en">A small chicken-paitan ramen counter in Beppu. One broth, simmered with patience — served until the soup runs out.</span>
+        <span class="lang-jp">別府の小さな鶏白湯らぁ麺店。一杯の白湯にひたむきな手間を込めて、スープがなくなり次第終了。</span>
+        <span class="lang-ko">벳푸의 작은 닭 백탕 라멘집. 한 그릇의 백탕에 정성을 담아, 국물이 소진되면 영업을 마칩니다.</span>
+        <span class="lang-zh">别府一家小小的鸡白汤拉面店。一碗白汤，慢火细熬，汤尽即止。</span>
+      </p>
+    </div>
+    <div>
+      <h4><span class="lang-en">Explore</span><span class="lang-jp">メニュー</span><span class="lang-ko">둘러보기</span><span class="lang-zh">探索</span></h4>
+      <ul>
+        <li><a href="menu.html"><span class="lang-en">Full Menu</span><span class="lang-jp">お品書き</span><span class="lang-ko">전체 메뉴</span><span class="lang-zh">完整菜单</span></a></li>
+        <li><a href="broth.html"><span class="lang-en">Our Broth</span><span class="lang-jp">こだわり</span><span class="lang-ko">육수 이야기</span><span class="lang-zh">汤头故事</span></a></li>
+        <li><a href="index.html#gallery"><span class="lang-en">Gallery</span><span class="lang-jp">ギャラリー</span><span class="lang-ko">갤러리</span><span class="lang-zh">相册</span></a></li>
+        <li><a href="index.html#reviews"><span class="lang-en">Reviews</span><span class="lang-jp">口コミ</span><span class="lang-ko">리뷰</span><span class="lang-zh">评价</span></a></li>
+        <li><a href="index.html#visit"><span class="lang-en">Visit Us</span><span class="lang-jp">アクセス</span><span class="lang-ko">오시는 길</span><span class="lang-zh">到店</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h4><span class="lang-en">Connect</span><span class="lang-jp">つながる</span><span class="lang-ko">연결</span><span class="lang-zh">联系</span></h4>
+      <ul>
+        <li><a href="https://www.instagram.com/ramen_santan/" target="_blank" rel="noopener">Instagram @ramen_santan</a></li>
+        <li><a href="tel:08081317345">080-8131-7345</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span class="lang-en">© 2026 らぁ麺 三湯 SANTAN, Beppu. All rights reserved.</span>
+    <span class="lang-jp">© 2026 らぁ麺 三湯 SANTAN, Beppu. 別府より、心を込めて。</span>
+    <span class="lang-ko">© 2026 らぁ麺 三湯 SANTAN, Beppu. 벳푸에서 정성을 담아.</span>
+    <span class="lang-zh">© 2026 らぁ麺 三湯 SANTAN, Beppu. 別府用心呈上。</span>
+  </div>
+</footer>
+
+<script src="js/menu-data.js"></script>
+<script src="js/render-menu.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
